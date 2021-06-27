@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "soundtest-cap-native",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

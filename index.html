@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title>Capacitor Sound Test</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: antiquewhite;
+      }
+
+      #main {
+        padding: 1rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 8vmin;
+      }
+
+      img {
+        display: block;
+        width: 40vmin;
+        margin: 0 auto;
+      }
+
+      #buttons {
+        display: grid;
+        padding: 1rem;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+        row-gap: 1rem;
+      }
+
+      button {
+        padding: 0.4rem;
+        font-size: 5vmin;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Capacitor Sound Test</h1>
+      <img src="/assets/mikan.png" alt="Mikan" />
+      <div id="buttons">
+        <button id="bgm_start">BGM Start</button>
+        <button id="bgm_stop">BGM Stop</button>
+        <button id="se1">SE1</button>
+        <button id="se2">SE2</button>
+        <button id="se3">SE3</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

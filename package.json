@@ -1,0 +1,27 @@
+{
+  "name": "soundtest-cap-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "copy": "./copy_assets.sh",
+    "open:i": "npm run copy && cap open ios",
+    "open:a": "npm run copy && cap open android",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor-community/native-audio": "^3.0.0",
+    "@capacitor/android": "^3.0.2",
+    "@capacitor/cli": "^3.0.2",
+    "@capacitor/core": "^3.0.2",
+    "@capacitor/device": "^1.0.2",
+    "@capacitor/ios": "^3.0.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
